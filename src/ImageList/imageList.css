@@ -1,0 +1,45 @@
+.imglst-cnt{
+    width:100vw;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
+
+.imgItem{
+    width: 100%;
+    border: 1px solid;
+
+    /* can use anyone from the below to break the word */
+    /* overflow-wrap: break-word; */
+    /* word-break: break-all; */
+    overflow-wrap: anywhere;
+
+ /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.imgGrid img{
+  border: 1px solid;
+  display: block;
+  /* width:"100%"; */
+  height: auto;
+  object-fit: contain;
+}
+
+.imglst-cnt-masonary{
+    columns: 4;
+    gap: 0.5rem;
+    width: 500px;
+    border: 1px solid;
+    height: 150px;
+    overflow: auto;
+}
+
+.imgItem-masonary{
+  margin-bottom: 16px;
+  border: 1px solid;
+  overflow-wrap: anywhere;
+}
+
+
