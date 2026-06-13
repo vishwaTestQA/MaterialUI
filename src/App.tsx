@@ -34,6 +34,12 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './BottomNavigation/Home'
 import Favourites from './BottomNavigation/Favourites'
 import Person from './BottomNavigation/Person'
+import BadgeMUI from './Badge/BadgeMUI'
+import ChipMUI from './Chip/ChipMUI'
+import TooltipMUI from './TootlTip/TooltipMUI'
+import TableMUI from './Table/TableMUI'
+import AlertMUI from './Alert/AlertMUI'
+import SnackbarMUI from './Snackbar/SnackbarMUI'
 
 function App() {
    const [theme, setTheme] = useState('light')
@@ -79,14 +85,22 @@ function App() {
 
       {/* <DrawerMUI/> */}
       {/* <SpeedDialMUI/> */}
-      <BottomNavigationMUI/>
-
+      {/* <BottomNavigationMUI/>
       <Routes>
         <Route path='/home' element={<Home/>}/>
         <Route path='/favourite' element={<Favourites/>}/>
         <Route path='/person' element={<Person/>}/>
-      </Routes>
+      </Routes> */}
 
+       {/* <BadgeMUI/> */}
+       {/* <ChipMUI/> */}
+
+       {/* <TooltipMUI/> */}
+       
+       <TableMUI/>
+
+       {/* <AlertMUI/> */}
+       {/* <SnackbarMUI/> */}
       
     </div>
   )

@@ -18,6 +18,8 @@ const AccordionMUI = () => {
             aria-label='panel1-content' 
             expandIcon={<ExpandCircleDownRounded/>} >React</AccordionSummary>
        <AccordionDetails>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique rerum minima rem aspernatur quasi saepe quis vero quam numquam facere iusto quas, molestiae odio repellat. Eos repellendus quae quod corporis.</AccordionDetails>
+        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reiciendis velit cumque eveniet rerum soluta ipsa ullam vero harum beatae fugiat ipsum accusantium voluptate distinctio, officiis nam suscipit officia? Corporis.</p>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reiciendis velit cumque eveniet rerum soluta ipsa ullam vero harum beatae fugiat ipsum accusantium voluptate distinctio, officiis nam suscipit officia? Corporis.</div> */}
     </Accordion>
 
       <Accordion 

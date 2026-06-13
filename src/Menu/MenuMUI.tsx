@@ -12,7 +12,7 @@ const MenuMUI = () => {
     }
   return (
     <div>
-      <AppBar position='static'>
+      <AppBar position='fixed' sx={{bgcolor: "#333"}}>
         <Toolbar>   {/* it adds padding */}
            <CatchingPokemon/>
            <Typography variant='h6' component='div' sx={{flex:1}}>POKEMON</Typography>
