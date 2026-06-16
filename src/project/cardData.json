@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "img": "https://picsum.photos/seed/1/400/225",
+    "title": "React Hooks Complete Guide",
+    "channel": "Code Master",
+    "views": "1.2M views"
+  },
+  {
+    "id": 2,
+    "img": "https://picsum.photos/seed/2/400/225",
+    "title": "Learn JavaScript in 30 Minutes",
+    "channel": "JS Academy",
+    "views": "845K views"
+  },
+  {
+    "id": 3,
+    "img": "https://picsum.photos/seed/3/400/225",
+    "title": "CSS Grid Layout Tutorial",
+    "channel": "Frontend Pro",
+    "views": "520K views"
+  },
+  {
+    "id": 4,
+    "img": "https://picsum.photos/seed/4/400/225",
+    "title": "Build a Chat App with React",
+    "channel": "Dev Simplified",
+    "views": "1.8M views"
+  },
+  {
+    "id": 5,
+    "img": "https://picsum.photos/seed/5/400/225",
+    "title": "Redux Toolkit Explained",
+    "channel": "State Manager",
+    "views": "765K views"
+  },
+  {
+    "id": 6,
+    "img": "https://picsum.photos/seed/6/400/225",
+    "title": "Node.js Crash Course",
+    "channel": "Backend Hub",
+    "views": "2.1M views"
+  },
+  {
+    "id": 7,
+    "img": "https://picsum.photos/seed/7/400/225",
+    "title": "TypeScript for Beginners",
+    "channel": "TS World",
+    "views": "670K views"
+  },
+  {
+    "id": 8,
+    "img": "https://picsum.photos/seed/8/400/225",
+    "title": "MongoDB Fundamentals",
+    "channel": "Database Guru",
+    "views": "430K views"
+  },
+  {
+    "id": 9,
+    "img": "https://picsum.photos/seed/9/400/225",
+    "title": "Express.js REST API",
+    "channel": "API Central",
+    "views": "980K views"
+  },
+  {
+    "id": 10,
+    "img": "https://picsum.photos/seed/10/400/225",
+    "title": "Material UI Components",
+    "channel": "UI Masters",
+    "views": "560K views"
+  },
+  {
+    "id": 11,
+    "img": "https://picsum.photos/seed/11/400/225",
+    "title": "Advanced React Patterns",
+    "channel": "React Experts",
+    "views": "1.4M views"
+  },
+  {
+    "id": 12,
+    "img": "https://picsum.photos/seed/12/400/225",
+    "title": "Authentication with JWT",
+    "channel": "Secure Dev",
+    "views": "390K views"
+  },
+  {
+    "id": 13,
+    "img": "https://picsum.photos/seed/13/400/225",
+    "title": "Tailwind CSS Deep Dive",
+    "channel": "CSS Ninja",
+    "views": "1.1M views"
+  },
+  {
+    "id": 14,
+    "img": "https://picsum.photos/seed/14/400/225",
+    "title": "Building Responsive Layouts",
+    "channel": "Web Design Lab",
+    "views": "275K views"
+  },
+  {
+    "id": 15,
+    "img": "https://picsum.photos/seed/15/400/225",
+    "title": "React Query Masterclass",
+    "channel": "Data Fetchers",
+    "views": "610K views"
+  },
+  {
+    "id": 16,
+    "img": "https://picsum.photos/seed/16/400/225",
+    "title": "GraphQL vs REST",
+    "channel": "API Insights",
+    "views": "890K views"
+  },
+  {
+    "id": 17,
+    "img": "https://picsum.photos/seed/17/400/225",
+    "title": "Deploy MERN App to Production",
+    "channel": "Cloud Dev",
+    "views": "1.7M views"
+  },
+  {
+    "id": 18,
+    "img": "https://picsum.photos/seed/18/400/225",
+    "title": "Performance Optimization in React",
+    "channel": "Speed Coders",
+    "views": "480K views"
+  },
+  {
+    "id": 19,
+    "img": "https://picsum.photos/seed/19/400/225",
+    "title": "System Design Basics",
+    "channel": "Architecture Hub",
+    "views": "930K views"
+  },
+  {
+    "id": 20,
+    "img": "https://picsum.photos/seed/20/400/225",
+    "title": "Docker for Developers",
+    "channel": "DevOps Academy",
+    "views": "1.3M views"
+  }
+]

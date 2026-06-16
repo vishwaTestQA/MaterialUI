@@ -20,7 +20,6 @@ const ChipMUI = () => {
             <Chip key={cp} label={cp} onDelete={() => handleDelete(cp)}/>
         ))
      }
-     
 
     </Stack>
   )

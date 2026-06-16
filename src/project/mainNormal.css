@@ -1,0 +1,40 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 100px;
+    overflow: auto;
+}
+
+@media screen and (min-width:468px){
+   .container{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (min-width:768px){
+   .container{
+    grid-template-columns:repeat(3, 1fr);
+}
+}
+
+@media screen and (min-width:1200px){
+    .container{
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+
+.item-grid{
+     padding: .75rem;
+     border-radius: 10%;
+     box-shadow: 2px 4px 3px 2px rgb(0,0,0,0.12);
+}
+
+.item-grid img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.item-grid:hover{
+background-color: rgb(247, 245, 245);
+}

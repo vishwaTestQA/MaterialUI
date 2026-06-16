@@ -40,14 +40,15 @@ import TooltipMUI from './TootlTip/TooltipMUI'
 import TableMUI from './Table/TableMUI'
 import AlertMUI from './Alert/AlertMUI'
 import SnackbarMUI from './Snackbar/SnackbarMUI'
+import Main from './project/Main'
+import MainNormal from './project/MainNormal'
 
 function App() {
    const [theme, setTheme] = useState('light')
 
   console.log(theme)
   return (
-    <div style={{
-         width:"100vw", height:"100vh",
+    <div style={{ 
          backgroundColor: theme ==="dark" ? 'black' : 'white',
          color: theme ==="dark" ? "white" : "black"}
         }>
@@ -97,10 +98,18 @@ function App() {
 
        {/* <TooltipMUI/> */}
        
-       <TableMUI/>
+       {/* <TableMUI/> */}
 
        {/* <AlertMUI/> */}
        {/* <SnackbarMUI/> */}
+
+       <Routes>
+        <Route path='/' element={<Main/>}/>
+       </Routes>
+       
+        <Routes>
+        <Route path='/normal' element={<MainNormal/>}/>
+       </Routes>
       
     </div>
   )
