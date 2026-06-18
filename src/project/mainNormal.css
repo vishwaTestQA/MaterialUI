@@ -16,12 +16,22 @@
    .container{
     grid-template-columns:repeat(3, 1fr);
 }
+.container-drawer{
+     grid-template-areas: "nav cl cl cl";
+}
 }
 
 @media screen and (min-width:1200px){
-    .container{
+   .container{
     grid-template-columns: repeat(4, 1fr);
-}
+ }
+  .container-drawer{
+    grid-template-areas: "nav cl cl cl cl";
+  }
+
+  .item-grid-drawer{
+    grid-area: cl;
+  }
 }
 
 .item-grid{
@@ -36,5 +46,19 @@
 }
 
 .item-grid:hover{
-background-color: rgb(247, 245, 245);
+  background-color: rgb(247, 245, 245);
+}
+
+.drawerCont{
+    grid-area: nav;
+    /* width:300px; */
+    top:80px;
+}
+
+.drawerFullScreen{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
